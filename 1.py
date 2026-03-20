@@ -1,7 +1,7 @@
 class Dog:
     species = "Dog"   
 
-    def __init__(self, breed, name):   # instance variables
+    def __init__(self, breed, name): 
         self.breed = breed
         self.name = name
 
@@ -11,7 +11,7 @@ class Dog:
         print("Name:", self.name)
         print()
 
-# objects of two different breeds
+
 dog1 = Dog("Golden Retriever", "Buddy")
 dog2 = Dog("German Shepherd", "Rocky")
 
